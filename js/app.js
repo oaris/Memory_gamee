@@ -93,7 +93,7 @@ function onCardClick(event){
 function count(){
   moves++;
   counter.innerHTML = moves;
-  if(moves == 1){
+  if(moves === 1){
     second = 0;
     minute = 0;
     hour = 0;
@@ -112,16 +112,17 @@ function count(){
 
 function startTimer(){
   time = setInterval(function(){
-    timer.innerHTML = minute+":"+second;
     second++;
-    if(second == 60){
+    if(second === 60){
       minute++;
       second=0;
     }
-    if(minute == 60){
+    if(minute === 60){
       hour++;
       minute = 0;
     }
+    timer.innerHTML = minute+":"+second;
+    
   },1000);
 }
 
@@ -146,7 +147,8 @@ function unmatched(){
 
 
 function finish(){
-  if (matchedCard.length == 16){
+  if (matchedCard.length === 16){
+    clearInterval(time);
         swal({
     allowEscapeKey: false,
     allowOutsideClick: false,

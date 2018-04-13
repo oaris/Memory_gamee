@@ -8,6 +8,18 @@ html {
     box-sizing: inherit;
 }
 
+
+@media screen and (max-width: 660px) {
+    .card {
+        max-height: 80px;
+        max-width: 80px;
+    }
+    .deck {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
 html,
 body {
     width: 100%;
