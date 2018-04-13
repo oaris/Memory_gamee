@@ -10,6 +10,6 @@ Memory game is a card game in which all of the cards are laid face down on a sur
 5- If they match it will stay open
 6- Player win when all card have been matched
 
-#Credits
+# Credits
 
 This game for Front End Web Development Nanodegree of Udacity
