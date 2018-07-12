@@ -1,6 +1,6 @@
 # Memory Game Project
 
-Memory game is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn
+Memory game is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn.
 
 # Game details 
 1- Cards mixed up 
@@ -12,4 +12,4 @@ Memory game is a card game in which all of the cards are laid face down on a sur
 
 # Credits
 
-This game for Front End Web Development Nanodegree of Udacity
+This game for Front End Web Development Nanodegree of Udacity.
